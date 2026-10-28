@@ -8,16 +8,16 @@
 
 <br>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nqedgelab&color=0f172a&style=flat-square&label=profile+views" alt="profile views" />
-  <a href="https://github.com/nqedgelab?tab=followers"><img src="https://img.shields.io/github/followers/nqedgelab?style=flat-square&logo=github&color=0f172a" alt="followers" /></a>
-  <a href="https://github.com/nqedgelab?tab=repositories"><img src="https://img.shields.io/github/stars/nqedgelab?style=flat-square&logo=github&color=0f172a&label=stars" alt="total stars" /></a>
-  <a href="https://github.com/nqedgelab?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnqedgelab&query=%24.public_repos&label=repos&style=flat-square&color=0f172a&cacheSeconds=86400" alt="public repos" /></a>
-  <a href="https://github.com/nqedgelab/nqedgelab/issues"><img src="https://img.shields.io/github/issues/nqedgelab/nqedgelab?label=open%20questions&style=flat-square&color=0f172a" alt="open questions" /></a>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=nqedgelab&color=3b82f6&style=flat-square&label=profile+views" alt="profile views" />
+  <a href="https://github.com/nqedgelab?tab=followers"><img src="https://img.shields.io/github/followers/nqedgelab?style=flat-square&logo=github&labelColor=1e293b&color=8b5cf6" alt="followers" /></a>
+  <a href="https://github.com/nqedgelab?tab=repositories"><img src="https://img.shields.io/github/stars/nqedgelab?style=flat-square&logo=github&labelColor=1e293b&color=14b8a6&label=stars" alt="total stars" /></a>
+  <a href="https://github.com/nqedgelab?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnqedgelab&query=%24.public_repos&label=repos&style=flat-square&labelColor=1e293b&color=0ea5e9&cacheSeconds=86400" alt="public repos" /></a>
+  <a href="https://github.com/nqedgelab/nqedgelab/issues"><img src="https://img.shields.io/github/issues/nqedgelab/nqedgelab?label=open%20questions&style=flat-square&labelColor=1e293b&color=22c55e" alt="open questions" /></a>
   <!-- Enable once nq-research is public:
-  <a href="https://github.com/nqedgelab/nq-research/commits"><img src="https://img.shields.io/github/last-commit/nqedgelab/nq-research?label=last%20research%20commit&style=flat-square&color=f59e0b" alt="last research commit" /></a>
+  <a href="https://github.com/nqedgelab/nq-research/commits"><img src="https://img.shields.io/github/last-commit/nqedgelab/nq-research?label=last%20research%20commit&style=flat-square&labelColor=1e293b&color=6366f1" alt="last research commit" /></a>
   -->
-</p>
+</div>
 
 ## Hi, welcome to NQ Lab 👋
 
