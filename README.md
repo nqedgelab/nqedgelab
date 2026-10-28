@@ -122,6 +122,10 @@ Strategy B wins far more often and still loses money. Strategy A loses more ofte
 
 </div>
 
+<details>
+<summary><b>Every hypothesis so far</b> (1)</summary>
+<br>
+
 <div align="center">
 
 | | Hypothesis | Trades | Expectancy after costs | Verdict |
@@ -129,6 +133,8 @@ Strategy B wins far more often and still loses money. Strategy A loses more ofte
 | [H-001](https://github.com/nqedgelab/nq-h001-opening-range) | 15-minute opening range breakout | 1,775 | −0.014R | ![rejected](https://img.shields.io/badge/rejected-ef4444?style=flat-square) |
 
 </div>
+
+</details>
 
 **Latest:** [H-001](https://github.com/nqedgelab/nq-h001-opening-range) found no edge before or after costs, so it was rejected in sample. The validation and holdout years stay unused for the next idea.
 
