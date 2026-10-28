@@ -6,95 +6,62 @@
   </picture>
 </a>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=3500&pause=1200&color=F59E0B&center=true&vCenter=true&width=620&lines=Write+the+hypothesis+first.;Backtest+after+costs.;Publish+the+failures+too.;Expectancy+%3E+win+rate." alt="Write the hypothesis first. Backtest after costs. Publish the failures too." />
-</p>
+<br>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=nqedgelab&color=0f172a&style=flat-square&label=profile+views" alt="profile views" />
   <a href="https://github.com/nqedgelab?tab=followers"><img src="https://img.shields.io/github/followers/nqedgelab?style=flat-square&logo=github&color=0f172a" alt="followers" /></a>
-  <img src="https://img.shields.io/badge/mode-paper%20trading-f59e0b?style=flat-square" alt="paper trading" />
-  <img src="https://img.shields.io/badge/edge-unproven-64748b?style=flat-square" alt="edge: unproven" />
+  <a href="https://github.com/nqedgelab?tab=repositories"><img src="https://img.shields.io/github/stars/nqedgelab?style=flat-square&logo=github&color=0f172a&label=stars" alt="total stars" /></a>
+  <a href="https://github.com/nqedgelab?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnqedgelab&query=%24.public_repos&label=repos&style=flat-square&color=0f172a&cacheSeconds=86400" alt="public repos" /></a>
+  <a href="https://github.com/nqedgelab/nqedgelab/issues"><img src="https://img.shields.io/github/issues/nqedgelab/nqedgelab?label=open%20questions&style=flat-square&color=0f172a" alt="open questions" /></a>
+  <!-- Enable once nq-research is public:
+  <a href="https://github.com/nqedgelab/nq-research/commits"><img src="https://img.shields.io/github/last-commit/nqedgelab/nq-research?label=last%20research%20commit&style=flat-square&color=f59e0b" alt="last research commit" /></a>
+  -->
 </p>
 
-## :wave: Hello there! This is NQ Lab
+## Hi, welcome to NQ Lab 👋
 
-AI-assisted research on Nasdaq-100 E-mini (NQ) futures, testing whether a trading edge actually exists, and measuring it if it does.
+This is an open research notebook on Nasdaq-100 E-mini (NQ) futures. The question I'm working on is simple to ask and hard to answer: is there a trading edge here that holds up after costs, on data it wasn't fitted to?
 
-- :microscope: &nbsp;I'm currently working on writing **testable hypotheses** before backtesting them
-- :seedling: &nbsp;I'm currently learning **backtesting**, **expectancy**, and **risk management**
-- :chart_with_downwards_trend: &nbsp;I publish the ideas that **fail**, not just the ones that work
-- :speech_balloon: &nbsp;I like to talk about **edge**, **expectancy**, and why most backtests lie
-- :mailbox: &nbsp;Ask me anything on my **[issues page](https://github.com/nqedgelab/nqedgelab/issues)**
+I don't have that answer yet, and I'd rather show the work than claim one. Everything is paper traded, and nothing here is financial advice.
 
-## :bar_chart: Research Scoreboard
+## How the research works
 
-> Not GitHub stats. The research record, failures included.
+1. Each idea is written down as a hypothesis before it's tested, including what result would prove it wrong.
+2. It's backtested with realistic costs, and judged on data held back from the start.
+3. Ideas that survive get paper traded, so the backtest can be compared against live behaviour.
+4. Every result gets published, including the ones that don't work. Most won't, and that's useful to know.
 
-<table>
-  <tr>
-    <td align="center" width="140"><h1>0</h1>:memo: Written</td>
-    <td align="center" width="140"><h1>0</h1>:test_tube: Tested</td>
-    <td align="center" width="140"><h1>0</h1>:x: Rejected</td>
-    <td align="center" width="140"><h1>0</h1>:white_check_mark: Supported</td>
-    <td align="center" width="180"><h1>—</h1>:trophy: Best expectancy<br><sub>out of sample, after costs</sub></td>
-  </tr>
-</table>
-
-## :test_tube: Currently Testing
+## Where things stand
 
 <table>
   <tr>
-    <td width="720">
-      <b>Nothing yet.</b> The first hypothesis is being drafted.<br><br>
-      <sub>When it's live, this card shows the claim, what would prove it wrong, and progress toward the required sample:</sub><br>
-      <code>░░░░░░░░░░&nbsp;&nbsp;0 / 100 trades</code>
-    </td>
+    <td align="center" width="140"><h2>0</h2>Written</td>
+    <td align="center" width="140"><h2>0</h2>Tested</td>
+    <td align="center" width="140"><h2>0</h2>Rejected</td>
+    <td align="center" width="140"><h2>0</h2>Supported</td>
+    <td align="center" width="160"><h2>–</h2>Best expectancy<br><sub>out of sample, after costs</sub></td>
   </tr>
 </table>
 
-## :headstone: Idea Graveyard
+**Currently testing:** nothing yet. The first hypothesis is being drafted.
 
-> Every rejected idea, with the number that killed it.
+## Tools
 
-<details>
-  <summary><b>0 ideas buried so far</b> (click to open)</summary>
-  <br>
-  Empty, for now. Most ideas end up here. That's the point.
-</details>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" title="Python" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="36" height="36" alt="pandas" title="pandas" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="36" height="36" alt="NumPy" title="NumPy" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="36" height="36" alt="Jupyter" title="Jupyter" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36" alt="Git" title="Git" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/claude" width="36" height="36" alt="Claude" title="Claude" />
+</p>
 
-## :toolbox: Research Toolkit
+The research is done together with Claude, an AI assistant, which helps with writing hypotheses, code, and challenging the conclusions.
 
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python" />
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="pandas" />
-      <br>pandas
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy" />
-      <br>NumPy
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="48" height="48" alt="Jupyter" />
-      <br>Jupyter
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-      <br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.simpleicons.org/claude" width="48" height="48" alt="Claude" />
-      <br>Claude
-    </td>
-  </tr>
-</table>
+## Say hello
 
-## :fire: Activity
+Questions, ideas to test, or reasons you think something won't work are all welcome. The easiest way to reach me is to [open an issue](https://github.com/nqedgelab/nqedgelab/issues).
 
 <p align="center">
   <picture>
@@ -103,8 +70,4 @@ AI-assisted research on Nasdaq-100 E-mini (NQ) futures, testing whether a tradin
   </picture>
 </p>
 
-<p align="center">
-  <sub>Paper trading only. Not financial advice. &nbsp;·&nbsp; <a href="#nqlab-top">back to top ↑</a></sub>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:f59e0b&height=100&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:f59e0b&height=90&section=footer" width="100%" alt="" />
