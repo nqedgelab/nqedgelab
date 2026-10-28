@@ -19,7 +19,13 @@
   -->
 </div>
 
-## Hi, welcome to NQ Lab 👋
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-welcome-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-welcome-light.svg" />
+  <img src="./assets/section-welcome-dark.svg" alt="Hi, welcome to NQ Lab" width="100%" />
+</picture>
 
 This is an open research notebook on Nasdaq-100 E-mini (NQ) futures. The question I'm working on is simple to ask and hard to answer: is there a trading edge here that holds up after costs, on data it wasn't fitted to?
 
@@ -28,7 +34,13 @@ I don't have that answer yet, and I'd rather show the work than claim one.
 > [!IMPORTANT]
 > Everything here is paper traded. Nothing on this profile is financial advice.
 
-## How the research works
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-process-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-process-light.svg" />
+  <img src="./assets/section-process-dark.svg" alt="How the research works" width="100%" />
+</picture>
 
 Every idea is written down before it's tested, including the result that would prove it wrong. It's then backtested with realistic costs and judged on data held back from the start. Ideas that hold up get paper traded; the rest are published as rejected. Most won't hold up, and that's useful to know.
 
@@ -47,13 +59,54 @@ flowchart LR
     class D stop
 ```
 
-## Where things stand
+<br>
 
-An idea only counts as an edge if its expectancy, the average result per trade measured in units of risk (R), stays positive after costs:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-edge-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-edge-light.svg" />
+  <img src="./assets/section-edge-dark.svg" alt="What counts as an edge" width="100%" />
+</picture>
+
+An idea only counts as an edge if its expectancy stays positive after costs, on data it wasn't fitted to. Expectancy is the single number every result here is judged on.
+
+<details>
+<summary><b>What is expectancy?</b></summary>
+<br>
+
+Expectancy is the average amount you make or lose per trade, over many trades. It's measured in **R**, where 1R is the amount risked on a trade (the distance from entry to stop). Measuring in R makes results comparable no matter the position size.
 
 $$E = p \cdot \bar{W} - (1 - p) \cdot \bar{L}$$
 
-where $p$ is the win rate, $\bar{W}$ the average win and $\bar{L}$ the average loss. A high win rate means nothing if the losses are bigger than the wins.
+where $p$ is the win rate, $\bar{W}$ the average win and $\bar{L}$ the average loss, both in R.
+
+**Why win rate alone is misleading.** Two strategies, before costs:
+
+<div align="center">
+
+| | Win rate | Average win | Average loss | Expectancy |
+|:---|:---:|:---:|:---:|:---:|
+| Strategy A | 40% | 2.0R | 1.0R | 0.4 × 2.0 − 0.6 × 1.0 = **+0.20R** |
+| Strategy B | 70% | 0.5R | 1.5R | 0.7 × 0.5 − 0.3 × 1.5 = **−0.10R** |
+
+</div>
+
+Strategy B wins far more often and still loses money. Strategy A loses more often than it wins and still makes 0.2R per trade on average.
+
+**Why "after costs" matters.** Commission and slippage come off every trade. A small positive expectancy can turn negative once they're included, especially with tight stops, where costs are a bigger share of 1R.
+
+**Why sample size matters.** Expectancy from 20 trades is mostly noise. Each hypothesis here sets a minimum number of trades in advance, before any result counts.
+
+</details>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-status-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-status-light.svg" />
+  <img src="./assets/section-status-dark.svg" alt="Where things stand" width="100%" />
+</picture>
+
+<div align="center">
 
 <table>
   <tr>
@@ -65,9 +118,19 @@ where $p$ is the win rate, $\bar{W}$ the average win and $\bar{L}$ the average l
   </tr>
 </table>
 
+</div>
+
 **Currently testing:** nothing yet. The first hypothesis is being drafted.
 
-## Tools
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-tools-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-tools-light.svg" />
+  <img src="./assets/section-tools-dark.svg" alt="Tools" width="100%" />
+</picture>
+
+<div align="center">
 
 <table>
   <tr>
@@ -82,7 +145,15 @@ where $p$ is the win rate, $\bar{W}$ the average win and $\bar{L}$ the average l
   </tr>
 </table>
 
-## Say hello
+</div>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-hello-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-hello-light.svg" />
+  <img src="./assets/section-hello-dark.svg" alt="Say hello" width="100%" />
+</picture>
 
 Questions, ideas to test, or reasons you think something won't work are all welcome.
 
