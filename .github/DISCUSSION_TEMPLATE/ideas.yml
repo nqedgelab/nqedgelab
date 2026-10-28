@@ -1,0 +1,37 @@
+title: "Idea: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea worth testing on NQ? Good ideas here can become a numbered hypothesis.
+        The more exact the rules, the faster it can be tested. "Buy the dip" can't be coded; "buy when price closes 1% below the 20-day low" can.
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim
+      description: One or two sentences. What happens, under what conditions, on what timeframe?
+      placeholder: "After a gap down of more than 1% at the open, NQ tends to fill half the gap by noon."
+    validations:
+      required: true
+  - type: textarea
+    id: rules
+    attributes:
+      label: Rules, as exact as you can make them
+      description: Entry, stop, exit. Leave blank anything you're unsure about.
+      placeholder: |
+        Entry:
+        Stop:
+        Exit:
+  - type: textarea
+    id: why
+    attributes:
+      label: Why might it work?
+      description: Who is on the other side of the trade, and why would they keep losing?
+  - type: textarea
+    id: falsify
+    attributes:
+      label: What result would prove it wrong?
+      placeholder: "Expectancy at or below 0R after costs over 300+ trades."
+  - type: markdown
+    attributes:
+      value: "Everything here is paper traded and nothing is financial advice."

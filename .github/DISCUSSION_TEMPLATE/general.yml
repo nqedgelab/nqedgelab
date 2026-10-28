@@ -1,0 +1,21 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Critiques of the method are especially welcome. If you think a result is wrong, biased, or overfitted, say so and say why.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is this?
+      options:
+        - A critique of the method or a result
+        - A data or code problem
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: body
+    attributes:
+      label: Details
+    validations:
+      required: true

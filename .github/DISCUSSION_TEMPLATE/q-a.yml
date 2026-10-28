@@ -1,0 +1,17 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions about the method, the data, expectancy, or a specific result are all welcome.
+        Personal trading or investment advice can't be given here.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Which hypothesis or result is this about, if any?
+      placeholder: "H-001"
