@@ -27,9 +27,12 @@
   <img src="./assets/section-welcome-dark.svg" alt="Hi, welcome to NQ Lab" width="100%" />
 </picture>
 
-This is an open research notebook on Nasdaq-100 E-mini (NQ) futures. The question I'm working on is simple to ask and hard to answer: is there a trading edge here that holds up after costs, on data it wasn't fitted to?
+This is an open research notebook on Nasdaq-100 E-mini (NQ) futures. The question I'm working on is simple to ask and hard to answer:
 
-I don't have that answer yet, and I'd rather show the work than claim one.
+is there a trading edge here that holds up after costs, on data it wasn't fitted to?
+<div align="center">
+**I don't have that answer yet, and I'd rather show the work than claim one.**
+</div>
 
 > [!IMPORTANT]
 > Everything here is paper traded. Nothing on this profile is financial advice.
