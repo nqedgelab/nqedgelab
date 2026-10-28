@@ -14,9 +14,7 @@
   <a href="https://github.com/nqedgelab?tab=repositories"><img src="https://img.shields.io/github/stars/nqedgelab?style=flat-square&logo=github&labelColor=1e293b&color=14b8a6&label=stars" alt="total stars" /></a>
   <a href="https://github.com/nqedgelab?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fnqedgelab&query=%24.public_repos&label=repos&style=flat-square&labelColor=1e293b&color=0ea5e9&cacheSeconds=86400" alt="public repos" /></a>
   <a href="https://github.com/nqedgelab/nqedgelab/discussions"><img src="https://img.shields.io/github/discussions/nqedgelab/nqedgelab?label=discussions&style=flat-square&labelColor=1e293b&color=22c55e" alt="discussions" /></a>
-  <!-- Enable once nq-research is public:
   <a href="https://github.com/nqedgelab/nq-research/commits"><img src="https://img.shields.io/github/last-commit/nqedgelab/nq-research?label=last%20research%20commit&style=flat-square&labelColor=1e293b&color=6366f1" alt="last research commit" /></a>
-  -->
 </div>
 
 <br>
@@ -114,9 +112,9 @@ Strategy B wins far more often and still loses money. Strategy A loses more ofte
 
 <table>
   <tr>
-    <td align="center" width="140"><h2>0</h2>Written</td>
-    <td align="center" width="140"><h2>0</h2>Tested</td>
-    <td align="center" width="140"><h2>0</h2>Rejected</td>
+    <td align="center" width="140"><h2>1</h2>Written</td>
+    <td align="center" width="140"><h2>1</h2>Tested</td>
+    <td align="center" width="140"><h2>1</h2>Rejected</td>
     <td align="center" width="140"><h2>0</h2>Supported</td>
     <td align="center" width="160"><h2>–</h2>Best expectancy<br><sub>out of sample, after costs</sub></td>
   </tr>
@@ -124,7 +122,19 @@ Strategy B wins far more often and still loses money. Strategy A loses more ofte
 
 </div>
 
-**Currently testing:** nothing yet. The first hypothesis is being drafted.
+<div align="center">
+
+| | Hypothesis | Trades | Expectancy after costs | Verdict |
+|:---:|:---|:---:|:---:|:---:|
+| [H-001](https://github.com/nqedgelab/nq-h001-opening-range) | 15-minute opening range breakout | 1,775 | −0.014R | ![rejected](https://img.shields.io/badge/rejected-ef4444?style=flat-square) |
+
+</div>
+
+**Latest:** [H-001](https://github.com/nqedgelab/nq-h001-opening-range) found no edge before or after costs, so it was rejected in sample. The validation and holdout years stay unused for the next idea.
+
+**Currently testing:** nothing yet. The next hypothesis is being drafted.
+
+Every hypothesis gets its own repo, and [**the book**](https://github.com/nqedgelab/nq-research) keeps the full record: a chapter per idea, the decisions behind the process, and the shared code every test runs on.
 
 <br>
 
