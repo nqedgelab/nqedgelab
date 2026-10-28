@@ -52,7 +52,7 @@ flowchart LR
     C -- Yes --> E["Paper trade"]
 
     classDef step fill:#1e293b,stroke:#64748b,color:#f1f5f9
-    classDef gate fill:#f59e0b,stroke:#b45309,color:#0f172a
+    classDef gate fill:#3b82f6,stroke:#1d4ed8,color:#ffffff
     classDef stop fill:#334155,stroke:#64748b,color:#cbd5e1
     class A,B,E step
     class C gate
@@ -162,9 +162,9 @@ Questions, ideas to test, or reasons you think something won't work are all welc
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=nqedgelab&hide_border=true&background=0F172A&ring=F59E0B&fire=F59E0B&currStreakLabel=F59E0B&sideLabels=F1F5F9&currStreakNum=F1F5F9&sideNums=F1F5F9&dates=94A3B8&stroke=334155" />
-    <img src="https://streak-stats.demolab.com/?user=nqedgelab&hide_border=true&background=F8FAFC&ring=D97706&fire=D97706&currStreakLabel=D97706&sideLabels=0F172A&currStreakNum=0F172A&sideNums=0F172A&dates=475569&stroke=CBD5E1" alt="GitHub streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=nqedgelab&hide_border=true&background=0F172A&ring=60A5FA&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=F1F5F9&currStreakNum=F1F5F9&sideNums=F1F5F9&dates=94A3B8&stroke=334155" />
+    <img src="https://streak-stats.demolab.com/?user=nqedgelab&hide_border=true&background=F8FAFC&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=0F172A&currStreakNum=0F172A&sideNums=0F172A&dates=475569&stroke=CBD5E1" alt="GitHub streak" />
   </picture>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:f59e0b&height=90&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:3b82f6&height=90&section=footer" width="100%" alt="" />
