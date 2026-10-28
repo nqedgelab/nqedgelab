@@ -23,16 +23,38 @@
 
 This is an open research notebook on Nasdaq-100 E-mini (NQ) futures. The question I'm working on is simple to ask and hard to answer: is there a trading edge here that holds up after costs, on data it wasn't fitted to?
 
-I don't have that answer yet, and I'd rather show the work than claim one. Everything is paper traded, and nothing here is financial advice.
+I don't have that answer yet, and I'd rather show the work than claim one.
+
+> [!IMPORTANT]
+> Everything here is paper traded. Nothing on this profile is financial advice.
 
 ## How the research works
 
-1. Each idea is written down as a hypothesis before it's tested, including what result would prove it wrong.
-2. It's backtested with realistic costs, and judged on data held back from the start.
-3. Ideas that survive get paper traded, so the backtest can be compared against live behaviour.
-4. Every result gets published, including the ones that don't work. Most won't, and that's useful to know.
+Every idea goes through the same steps, and every result gets published, including the ones that don't work. Most won't, and that's useful to know.
+
+```mermaid
+flowchart LR
+    A["Write the hypothesis<br/>and what would disprove it"] --> B["Backtest<br/>with realistic costs"]
+    B --> C{"Holds up on<br/>held-back data?"}
+    C -- No --> D["Rejected<br/>and published"]
+    C -- Yes --> E["Paper trade"]
+    E --> F["Compare live<br/>vs backtest"]
+
+    classDef step fill:#1e293b,stroke:#64748b,color:#f1f5f9
+    classDef gate fill:#f59e0b,stroke:#b45309,color:#0f172a
+    classDef stop fill:#334155,stroke:#64748b,color:#cbd5e1
+    class A,B,E,F step
+    class C gate
+    class D stop
+```
 
 ## Where things stand
+
+An idea only counts as an edge if its expectancy, the average result per trade measured in units of risk (R), stays positive after costs:
+
+$$E = p \cdot \bar{W} - (1 - p) \cdot \bar{L}$$
+
+where $p$ is the win rate, $\bar{W}$ the average win and $\bar{L}$ the average loss. A high win rate means nothing if the losses are bigger than the wins.
 
 <table>
   <tr>
@@ -48,20 +70,25 @@ I don't have that answer yet, and I'd rather show the work than claim one. Every
 
 ## Tools
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" title="Python" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="36" height="36" alt="pandas" title="pandas" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="36" height="36" alt="NumPy" title="NumPy" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="36" height="36" alt="Jupyter" title="Jupyter" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36" alt="Git" title="Git" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/claude" width="36" height="36" alt="Claude" title="Claude" />
-</p>
-
-The research is done together with Claude, an AI assistant, which helps with writing hypotheses, code, and challenging the conclusions.
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="" /><br><b>Python</b><br><sub>The language everything is written in</sub></td>
+    <td align="center" width="33%"><img src="https://cdn.simpleicons.org/pandas/E70488" width="40" height="40" alt="" /><br><b>pandas</b><br><sub>Loading and slicing price data</sub></td>
+    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="40" height="40" alt="" /><br><b>NumPy</b><br><sub>Fast maths for backtests and statistics</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="40" height="40" alt="" /><br><b>Jupyter</b><br><sub>Notebooks for exploring results</sub></td>
+    <td align="center" width="33%"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="" /><br><b>Git</b><br><sub>Timestamps every hypothesis before it's tested</sub></td>
+    <td align="center" width="33%"><img src="https://cdn.simpleicons.org/claude" width="40" height="40" alt="" /><br><b>Claude</b><br><sub>AI research partner that writes code and challenges conclusions</sub></td>
+  </tr>
+</table>
 
 ## Say hello
 
-Questions, ideas to test, or reasons you think something won't work are all welcome. The easiest way to reach me is to [open an issue](https://github.com/nqedgelab/nqedgelab/issues).
+Questions, ideas to test, or reasons you think something won't work are all welcome.
+
+> [!TIP]
+> The easiest way to reach me is to [open an issue](https://github.com/nqedgelab/nqedgelab/issues). Critiques of the method are especially welcome.
 
 <p align="center">
   <picture>
