@@ -29,7 +29,7 @@
 
 This is an open research notebook on Nasdaq-100 E-mini (NQ) futures. The question I'm working on is simple to ask and hard to answer:
 <div align="center">
-__is there a trading edge here that holds up after costs, on data it wasn't fitted to?__
+<strong> is there a trading edge here that holds up after costs, on data it wasn't fitted to? </strong>
 </div>
 I don't have that answer yet, and I'd rather show the work than claim one.
 
