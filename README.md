@@ -30,20 +30,19 @@ I don't have that answer yet, and I'd rather show the work than claim one.
 
 ## How the research works
 
-Every idea goes through the same steps, and every result gets published, including the ones that don't work. Most won't, and that's useful to know.
+Every idea is written down before it's tested, including the result that would prove it wrong. It's then backtested with realistic costs and judged on data held back from the start. Ideas that hold up get paper traded; the rest are published as rejected. Most won't hold up, and that's useful to know.
 
 ```mermaid
 flowchart LR
-    A["Write the hypothesis<br/>and what would disprove it"] --> B["Backtest<br/>with realistic costs"]
-    B --> C{"Holds up on<br/>held-back data?"}
-    C -- No --> D["Rejected<br/>and published"]
+    A["Hypothesis"] --> B["Backtest"]
+    B --> C{"Holds up?"}
+    C -- No --> D["Rejected"]
     C -- Yes --> E["Paper trade"]
-    E --> F["Compare live<br/>vs backtest"]
 
     classDef step fill:#1e293b,stroke:#64748b,color:#f1f5f9
     classDef gate fill:#f59e0b,stroke:#b45309,color:#0f172a
     classDef stop fill:#334155,stroke:#64748b,color:#cbd5e1
-    class A,B,E,F step
+    class A,B,E step
     class C gate
     class D stop
 ```
