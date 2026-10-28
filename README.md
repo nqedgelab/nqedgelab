@@ -31,6 +31,7 @@ This is an open research notebook on Nasdaq-100 E-mini (NQ) futures. The questio
 <div align="center">
 <strong> is there a trading edge here that holds up after costs, on data it wasn't fitted to? </strong>
 </div>
+
 I don't have that answer yet, and I'd rather show the work than claim one.
 
 
