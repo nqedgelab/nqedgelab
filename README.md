@@ -112,9 +112,9 @@ Strategy B wins far more often and still loses money. Strategy A loses more ofte
 
 <table>
   <tr>
-    <td align="center" width="140"><h2>1</h2>Written</td>
-    <td align="center" width="140"><h2>1</h2>Tested</td>
-    <td align="center" width="140"><h2>1</h2>Rejected</td>
+    <td align="center" width="140"><h2>2</h2>Written</td>
+    <td align="center" width="140"><h2>2</h2>Tested</td>
+    <td align="center" width="140"><h2>2</h2>Rejected</td>
     <td align="center" width="140"><h2>0</h2>Supported</td>
     <td align="center" width="160"><h2>–</h2>Best expectancy<br><sub>out of sample, after costs</sub></td>
   </tr>
@@ -123,7 +123,7 @@ Strategy B wins far more often and still loses money. Strategy A loses more ofte
 </div>
 
 <details>
-<summary><b>Every hypothesis so far</b> (1)</summary>
+<summary><b>Every hypothesis so far</b> (2)</summary>
 <br>
 
 <div align="center">
@@ -131,12 +131,13 @@ Strategy B wins far more often and still loses money. Strategy A loses more ofte
 | | Hypothesis | Trades | Expectancy after costs | Verdict |
 |:---:|:---|:---:|:---:|:---:|
 | [H-001](https://github.com/nqedgelab/nq-h001-opening-range) | 15-minute opening range breakout | 1,775 | −0.014R | ![rejected](https://img.shields.io/badge/rejected-ef4444?style=flat-square) |
+| [H-002](https://github.com/nqedgelab/nq-h002-intraday-momentum) | Intraday momentum, first to last half hour | 1,520 | −0.80 bp | ![rejected](https://img.shields.io/badge/rejected-ef4444?style=flat-square) |
 
 </div>
 
 </details>
 
-**Latest:** [H-001](https://github.com/nqedgelab/nq-h001-opening-range) found no edge before or after costs, so it was rejected in sample. The validation and holdout years stay unused for the next idea.
+**Latest:** [H-002](https://github.com/nqedgelab/nq-h002-intraday-momentum) tested a published claim that the first half hour predicts the last. On NQ it didn't: −0.80 bp a trade after costs, rejected in sample. The validation and holdout years stay unused for the next idea.
 
 **Currently testing:** nothing yet. The next hypothesis is being drafted.
 
